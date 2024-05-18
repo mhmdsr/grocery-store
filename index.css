@@ -1,0 +1,29 @@
+p {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    background: #a4d8f0;
+    border: 2px solid rgb(101, 200, 230);
+}
+p:active {
+    outline: 2px dotted rgb(38, 136, 248);
+    outline-offset: 2px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+span:hover {
+    outline: 2px solid rgb(248, 199, 38);
+    outline-offset: 3px;
+}
